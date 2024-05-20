@@ -1,0 +1,46 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: ClusterServiceVersion
+metadata:
+  annotations:
+    alm-examples: '[]'
+    capabilities: Basic Install
+    createdAt: "2024-05-01T11:05:28Z"
+    operators.operatorframework.io/builder: operator-sdk-v1.34.1
+    operators.operatorframework.io/project_layout: unknown
+  name: energaize-operator.v0.0.1
+  namespace: placeholder
+spec:
+  minKubeVersion: 1.27.9
+  apiservicedefinitions: {}
+  customresourcedefinitions: {}
+  description: Energaize Operator description. TODO.
+  displayName: Energaize Operator
+  icon:
+  - base64data: ""
+    mediatype: ""
+  install:
+    spec:
+      deployments: []
+    strategy: deployment
+  installModes:
+  - supported: true
+    type: OwnNamespace
+  - supported: false
+    type: SingleNamespace
+  - supported: false
+    type: MultiNamespace
+  - supported: true
+    type: AllNamespaces
+  keywords:
+  - energaize-operator
+  links:
+  - name: Energaize Operator
+    url: https://energaize-operator.domain
+  maintainers:
+  - email: contact@netai.tech
+    name: Rokas Gudavicius
+  maturity: alpha
+  provider:
+    name: Net AI
+    url: https://netai.tech
+  version: "0.1"
