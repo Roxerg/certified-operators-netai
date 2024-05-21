@@ -7,7 +7,7 @@ metadata:
     createdAt: "2024-05-01T11:05:28Z"
     operators.operatorframework.io/builder: operator-sdk-v1.34.1
     operators.operatorframework.io/project_layout: unknown
-  name: energaize-operator.v0.0.1
+  name: energaize-operator.v0.1.0
   namespace: placeholder
 spec:
   minKubeVersion: 1.27.9
@@ -38,9 +38,9 @@ spec:
     url: https://energaize-operator.domain
   maintainers:
   - email: contact@netai.tech
-    name: Rokas Gudavicius
+    name: Net AI
   maturity: alpha
   provider:
     name: Net AI
     url: https://netai.tech
-  version: "0.1"
+  version: 0.1.0
